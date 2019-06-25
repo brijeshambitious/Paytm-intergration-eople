@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1019596825783",
+    "firebase_url": "https://eople-932c5.firebaseio.com",
+    "project_id": "eople-932c5",
+    "storage_bucket": "eople-932c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019596825783:android:4cd92520c2785dbc",
+        "android_client_info": {
+          "package_name": "brijesh.hg.eopleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019596825783-vtt8ssik0l9jifbvbd5pr25gqthq2i9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsGENvP4p1sgEFkj_v06RiCKfLsQ45Xbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019596825783-vtt8ssik0l9jifbvbd5pr25gqthq2i9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

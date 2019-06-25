@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eople App</string>
+    <string name="facebook_app_id">1262078450618827</string>
+    <string name="fb_login_protocol_scheme">fb1262078450618827</string>
+    <string name="Rs">\u20B9</string>
+    <string name="try_again">Reconnect</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    tools:context=".Transaction_status">
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="350dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_margin="20dp"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="5dp"-->
+    <!--&gt;-->
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/profile_back">-->
+
+    <ImageView
+        android:id="@+id/traback"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/back_arrow" />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        app:lottie_fileName="433-checked-done.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/draw"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:src="@drawable/success" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animation_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/segoeui"
+        android:text="Transaction Successful"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+    <!--</android.support.v7.widget.CardView>-->
+
+
+    <!--</RelativeLayout>-->
