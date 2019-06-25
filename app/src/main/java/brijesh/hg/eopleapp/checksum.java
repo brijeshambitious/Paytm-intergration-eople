@@ -40,7 +40,7 @@ public class checksum extends AppCompatActivity implements PaytmPaymentTransacti
         orderId = intent.getExtras().getString("orderid");
         custid = intent.getExtras().getString("custid");
         txnamount = intent.getExtras().getString("txnamount");
-        mid = "mnAdVE71966719176040"; /// your marchant key
+        mid = "HaWNyx92022787507029"; /// your marchant key
         sendUserDetailTOServerdd dl = new sendUserDetailTOServerdd();
         dl.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 // vollye , retrofit, asynch
@@ -114,7 +114,7 @@ public class checksum extends AppCompatActivity implements PaytmPaymentTransacti
             //below parameter map is required to construct PaytmOrder object, Merchant should replace below map values with his own values
             HashMap<String, String> paramMap = new HashMap<String, String>();
             //these are mandatory parameters
-            paramMap.put("MID", "mnAdVE71966719176040"); //MID provided by paytm
+            paramMap.put("MID", "HaWNyx92022787507029");
             paramMap.put("ORDER_ID", orderId);
             paramMap.put("CUST_ID", custid);
             paramMap.put("INDUSTRY_TYPE_ID", "Retail");
