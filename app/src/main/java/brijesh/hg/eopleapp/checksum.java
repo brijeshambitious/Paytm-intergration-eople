@@ -51,7 +51,9 @@ public class checksum extends AppCompatActivity implements PaytmPaymentTransacti
         //String url ="https://hgpaytm.000webhostapp.com/generateChecksum.php";
 
         //String url ="https://www.blueappsoftware.com/payment/payment_paytm/generateChecksum.php";
-        String url ="http://nav.mypressonline.com/generateChecksum.php";
+
+        String url ="https://ruchapaytmhost.000webhostapp.com/generateChecksum.php";
+        //String url ="http://nav.mypressonline.com/generateChecksum.php";
         String varifyurl = "https://securegw.paytm.in/theia/paytmCallback?ORDER_ID="+orderId;
 
         //String varifyurl = "https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp";
@@ -114,7 +116,7 @@ public class checksum extends AppCompatActivity implements PaytmPaymentTransacti
             //below parameter map is required to construct PaytmOrder object, Merchant should replace below map values with his own values
             HashMap<String, String> paramMap = new HashMap<String, String>();
             //these are mandatory parameters
-            paramMap.put("MID", "HaWNyx92022787507029");  
+            paramMap.put("MID", "HaWNyx92022787507029");
             paramMap.put("ORDER_ID", orderId);
             paramMap.put("CUST_ID", custid);
             paramMap.put("INDUSTRY_TYPE_ID", "Retail");
